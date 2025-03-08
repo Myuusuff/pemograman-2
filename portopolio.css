@@ -1,0 +1,389 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'perpetua';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;   
+}
+.wrapper img{
+    width:400px;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Exotc350 Bd BT';
+    color: #f18904;
+    float: center;
+
+}
+
+.menu {
+    float: center;
+    margin-left: 1100pxpx;
+    font-size:24px;
+    
+    
+}
+
+
+nav {
+    text-align:center;
+    margin: auto;
+    display: relative;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    background:rgba(226, 157, 27, 0.74);
+    z-index: 1;
+    border-bottom: 1px solid lightslategray;
+    padding: 10px o;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+} 
+
+nav ul li {
+    display:inline;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f18904;
+}
+nav ul li a:active {
+    text-decoration: ;
+    color: #f3cd05;
+}
+
+
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 60px;
+    background-color:rgba(240, 237, 231, 0.74);
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'times new roman';
+    color:   #f3cd05;
+}
+.kolom h1{
+    font-size:30px
+}
+h2 {
+    font-family: 'Exotc350 Bd BT';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:  #f18904;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-yellow {
+    background: #f18904;
+    border-radius: 30px ;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-yellow:hover {
+    background:#f3cd05;
+    text-decoration: none;
+    color: black;
+
+}
+
+a.tbl-orange {
+    background:  #f3cd05;
+    border-radius: 30px ;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+a.tbl-orange:hover {
+    background: #f18904;
+    text-decoration: none;
+    color: black;
+
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 100%;
+    border-radius:30px;
+}
+.kartu-tutor img:hover{
+    border-radius:20px;
+    width:101%;
+    box-shadow:20px;
+}
+
+.kartu-tutor p {
+    font-family: '';
+    font-size: 20px;
+    font-weight:800;
+    text-align: center;
+    color: #000;
+}
+
+.partners-list {
+    width: 100%;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+/* .kartu-partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partners img {
+    width: 150px;
+    border-radius:30px;
+} */
+
+ 
+.team-section {
+    text-align: center;
+    align-items: center;
+}
+
+.team-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    margin-left:9%;
+    
+}
+
+h1{
+    text-align:center;
+    align-item:center;
+    
+ 
+}
+
+
+.team-card {
+    background-color: white;
+    align:center;
+    border-radius: 15px;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card:hover {
+    background-color:rgba(226, 157, 27, 0.74);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display:block;
+}
+h1{
+    color: #f3cd05;
+}
+
+.role{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #FFE4B5;
+    color: #333;
+    font-weight: bold;
+}
+
+.leader {background-color: #FFE4B5;}
+.mentor {background-color: #FFDEAD;}
+.guide {background-color: #FFDAB9;}
+.support {background-color: #FFEFD5;}
+
+.bar-container {
+    width: 100%;
+    background-color:  #f18904;
+    margin: 10px 0;
+    border-radius: 104px;
+}
+.bar {
+    width: 50%; /* Ganti persentase sesuai kebutuhan */
+    background-color:  #f3cd05;
+    padding: 10px;
+    color: white;
+    border-radius: 104px;
+    text-align: right;
+}
+
+
+
+
+#kontak {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+
+}
+ul .no-spasi {
+    margin-bottom: 4px;
+
+}
+li {
+    display: list-item;
+    text-align:left;
+}
+ul {
+    list-style-type: disc;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+h3 {
+    font-family: 'Exotc350 Bd BT';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    text-align: center;
+}
+ 
+#copyright {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 991.98px ) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    section {
+        display:block;
+       
+    }
+
+    section img {
+        display: block;
+         width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+
+    }
+    .team-card{
+        width:50%;
+    }
+
+    .kartu-partners {
+        width: 50%;
+    }
+    #contact {
+        display: block;
+    }
+
+    .footer-section {
+        width: 50%;
+    }
+
+
+
+}
